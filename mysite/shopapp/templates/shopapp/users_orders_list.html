@@ -1,0 +1,34 @@
+{% extends "shopapp/base.html" %}
+{% load cache %}
+
+{% block title %}
+    User Orders List
+{% endblock %}
+
+{% block body %}
+<h1>User orders {{ owner.username }}</h1>
+{% if object_list %}
+    {% cache 120 userorders owner.username %}
+    <ul>
+        {% for order in object_list %}
+        <li>Order {{ order.pk }} - {{ order.created_at }}</li>
+        {% endfor %}
+    </ul>
+    {% endcache %}
+{% else %}
+    <div>User {{ owner.username }} has no orders yet!</div>
+{% endif %}
+
+<div>
+    <a href="{% url 'shopapp:order_create' %}">
+    Create a new order!
+    </a>
+</div>
+
+<div>
+    <a href="{% url 'shopapp:order_list' %}">
+      Back to orders list!
+    </a>
+</div>
+
+{% endblock %}

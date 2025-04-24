@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Article List</title>
+</head>
+<body>
+<h1>Article List</h1>
+<div>
+    {% if object_list %}
+        {% for article in object_list %}
+            <div>
+                <h2><a href="{% url 'BlogApp:article' pk=article.pk %}">{{ article.title }}</a></h2>
+                <p>Public date: {{ article.pub_date }}</p>
+                <p>Author: {{ article.author.name }}</p>
+                <p>category: {{ article.category.name }}</p>
+                <p>Tags: {% for tag in article.tags.all %}
+                    {{ tag.name }},
+                    {% endfor %}
+                </p>
+            </div>
+        {% endfor %}
+    {% else %}
+        <div>No article yet!</div>
+    {% endif %}
+</div>
+
+</body>
+</html>

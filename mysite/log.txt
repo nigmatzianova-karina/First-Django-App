@@ -1,0 +1,1105 @@
+2025-04-03 18:10:24,734 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-03 18:15:30,532 [WARNING] django.request: Not Found: /myauth/login/
+2025-04-03 18:16:52,980 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/admin.py changed, reloading.
+2025-04-03 18:16:53,299 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-03 18:18:08,326 [ERROR] django.request: Internal Server Error: /admin/shopapp/product/
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/test/utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/test/utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/test/utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/test/utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'import_product_csv' not found. 'import_product_csv' is not a valid view function or pattern name.
+2025-04-03 18:18:09,742 [ERROR] django.request: Internal Server Error: /admin/shopapp/product/
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/test/utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/test/utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/test/utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/test/utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'import_product_csv' not found. 'import_product_csv' is not a valid view function or pattern name.
+2025-04-03 18:41:11,091 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/admin.py changed, reloading.
+2025-04-03 18:41:11,633 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-03 18:51:00,213 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/admin.py changed, reloading.
+2025-04-03 18:51:00,724 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-03 18:51:31,429 [ERROR] django.request: Internal Server Error: /admin/shopapp/product/import_products_csv/
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/admin.py", line 92, in import_csv
+    Product(**row)
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/base.py", line 569, in __init__
+    raise TypeError(
+TypeError: Product() got unexpected keyword arguments: 'descriptions'
+2025-04-03 18:55:01,456 [ERROR] django.request: Internal Server Error: /admin/shopapp/product/import_products_csv/
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py", line 1817, in to_python
+    decimal_value = decimal.Decimal(value)
+                    ^^^^^^^^^^^^^^^^^^^^^^
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/admin.py", line 95, in import_csv
+    Product.objects.bulk_create(products)
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 823, in bulk_create
+    returned_columns = self._batched_insert(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 1882, in _batched_insert
+    self._insert(
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 1854, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1880, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1805, in as_sql
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1740, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py", line 1833, in get_db_prep_value
+    value = super().get_db_prep_value(value, connection, prepared)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py", line 1005, in get_db_prep_value
+    value = self.get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py", line 1840, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py", line 1819, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“12,99” value must be a decimal number.']
+2025-04-03 18:55:04,682 [ERROR] django.request: Internal Server Error: /admin/shopapp/product/import_products_csv/
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py", line 1817, in to_python
+    decimal_value = decimal.Decimal(value)
+                    ^^^^^^^^^^^^^^^^^^^^^^
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/admin.py", line 95, in import_csv
+    Product.objects.bulk_create(products)
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 823, in bulk_create
+    returned_columns = self._batched_insert(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 1882, in _batched_insert
+    self._insert(
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 1854, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1880, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1805, in as_sql
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1740, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py", line 1833, in get_db_prep_value
+    value = super().get_db_prep_value(value, connection, prepared)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py", line 1005, in get_db_prep_value
+    value = self.get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py", line 1840, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py", line 1819, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“12,99” value must be a decimal number.']
+2025-04-04 18:00:20,434 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 18:00:27,076 [WARNING] django.request: Not Found: /
+2025-04-04 18:00:28,087 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-04 18:00:52,683 [ERROR] django.request: Internal Server Error: /en/shop/api/products/download_cdv/
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/views.py", line 97, in download_cdv
+    writer.writeheader()
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: 'DictReader' object has no attribute 'writeheader'
+2025-04-04 18:00:52,925 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-04 18:01:55,805 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/views.py changed, reloading.
+2025-04-04 18:01:56,097 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 18:37:34,374 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/views.py changed, reloading.
+2025-04-04 18:37:34,804 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 18:46:05,996 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 18:47:38,236 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/views.py changed, reloading.
+2025-04-04 18:47:38,494 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 18:47:41,925 [WARNING] django.request: Not Found: /
+2025-04-04 18:47:42,083 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-04 18:47:59,384 [WARNING] django.request: Method Not Allowed: /en/shop/api/products/upload_csv/
+2025-04-04 18:50:48,254 [WARNING] django.request: Method Not Allowed: /en/shop/api/products/upload_csv/
+2025-04-04 20:45:48,103 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 20:45:49,804 [WARNING] django.request: Not Found: /
+2025-04-04 20:45:58,503 [WARNING] django.request: Not Found: /BlogApp/
+2025-04-04 20:47:12,234 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/mysite/urls.py changed, reloading.
+2025-04-04 20:47:12,661 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 20:48:07,673 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 20:48:09,919 [WARNING] django.request: Not Found: /
+2025-04-04 20:50:33,592 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/BlogApp/models.py changed, reloading.
+2025-04-04 20:50:33,890 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 20:54:57,661 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/BlogApp/urls.py changed, reloading.
+2025-04-04 20:54:58,099 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 20:55:10,347 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 21:00:07,934 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/BlogApp/admin.py changed, reloading.
+2025-04-04 21:00:08,227 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 21:00:36,626 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/BlogApp/admin.py changed, reloading.
+2025-04-04 21:00:36,903 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 21:00:43,195 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/BlogApp/admin.py changed, reloading.
+2025-04-04 21:00:43,474 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 21:01:08,980 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/BlogApp/admin.py changed, reloading.
+2025-04-04 21:01:09,273 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 21:02:06,643 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/BlogApp/admin.py changed, reloading.
+2025-04-04 21:02:07,015 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 21:02:18,971 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 21:02:41,633 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/BlogApp/admin.py changed, reloading.
+2025-04-04 21:02:41,965 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 21:02:52,205 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 21:02:56,541 [WARNING] django.request: Not Found: /
+2025-04-04 21:04:05,021 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/BlogApp/models.py changed, reloading.
+2025-04-04 21:04:05,363 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 21:04:54,124 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 21:05:19,889 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 21:06:31,149 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/BlogApp/models.py changed, reloading.
+2025-04-04 21:06:31,459 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 21:06:36,765 [WARNING] django.request: Not Found: /
+2025-04-04 21:07:23,832 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/BlogApp/admin.py changed, reloading.
+2025-04-04 21:07:24,909 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 21:09:50,935 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/BlogApp/admin.py changed, reloading.
+2025-04-04 21:09:51,321 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 21:10:12,885 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/BlogApp/admin.py changed, reloading.
+2025-04-04 21:10:13,218 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 21:19:55,291 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 21:20:02,242 [ERROR] django.request: Internal Server Error: /blog/articles/1/
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: BlogApp/article_detail.html
+2025-04-04 21:22:31,908 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 21:22:41,350 [ERROR] django.request: Internal Server Error: /blog/articles/1/
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: BlogApp/article_detail.html
+2025-04-04 21:23:10,491 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 21:23:47,482 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 21:24:09,572 [WARNING] django.request: Not Found: /blog/articles/0/
+2025-04-04 21:34:16,710 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/BlogApp/views.py changed, reloading.
+2025-04-04 21:34:17,021 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 21:35:25,487 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/BlogApp/urls.py changed, reloading.
+2025-04-04 21:35:25,784 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 21:35:31,074 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/BlogApp/urls.py changed, reloading.
+2025-04-04 21:35:31,601 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-04 21:35:44,401 [ERROR] django.request: Internal Server Error: /blog/articles/latest/feed/
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/contrib/syndication/views.py", line 40, in __call__
+    feedgen = self.get_feed(obj, request)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/contrib/syndication/views.py", line 195, in get_feed
+    self._get_dynamic_attr("item_link", item),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/contrib/syndication/views.py", line 103, in _get_dynamic_attr
+    return attr(obj)
+           ^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/import_export/mysite/BlogApp/views.py", line 43, in item_link
+    return reverse("BlogApp:articles", kwargs={"pk": item.pk})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'articles' with keyword arguments '{'pk': 2}' not found. 1 pattern(s) tried: ['blog/articles/\\Z']
+2025-04-04 21:36:32,998 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/BlogApp/views.py changed, reloading.
+2025-04-04 21:36:33,299 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-05 14:17:28,567 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-05 14:17:34,651 [WARNING] django.request: Not Found: /
+2025-04-05 14:17:35,432 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-05 14:18:04,791 [ERROR] django.request: Internal Server Error: /sitemap.xml
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/response.py", line 74, in resolve_template
+    return get_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sitemap.xml
+2025-04-05 14:18:49,390 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/mysite/settings.py changed, reloading.
+2025-04-05 14:18:49,712 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-05 14:24:59,341 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/models.py changed, reloading.
+2025-04-05 14:24:59,790 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-05 14:31:02,671 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/models.py changed, reloading.
+2025-04-05 14:31:02,952 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-05 14:35:21,573 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/mysite/sitemaps.py changed, reloading.
+2025-04-05 14:35:21,866 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-05 14:37:07,934 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/mysite/sitemaps.py changed, reloading.
+2025-04-05 14:37:08,413 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-05 14:37:52,148 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/views.py changed, reloading.
+2025-04-05 14:37:52,421 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-05 14:39:43,813 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/views.py changed, reloading.
+2025-04-05 14:39:44,324 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-05 14:48:34,299 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/urls.py changed, reloading.
+2025-04-05 14:48:34,699 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-05 14:51:20,961 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/views.py changed, reloading.
+2025-04-05 14:51:21,319 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-05 14:54:00,822 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/views.py changed, reloading.
+2025-04-05 14:54:01,113 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-05 14:54:17,735 [ERROR] django.request: Internal Server Error: /en/shop/products/latest/feed
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: LatestProductsFeed() takes no arguments
+2025-04-05 14:56:39,331 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/BlogApp/views.py changed, reloading.
+2025-04-05 14:56:39,625 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-05 14:56:43,350 [ERROR] django.request: Internal Server Error: /en/shop/products/latest/feed
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: LatestProductsFeed() takes no arguments
+2025-04-05 14:56:44,829 [ERROR] django.request: Internal Server Error: /en/shop/products/latest/feed
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: LatestProductsFeed() takes no arguments
+2025-04-05 14:56:49,494 [ERROR] django.request: Internal Server Error: /en/shop/products/latest/feed
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: LatestProductsFeed() takes no arguments
+2025-04-05 14:59:16,124 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/views.py changed, reloading.
+2025-04-05 14:59:16,515 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-05 14:59:19,040 [ERROR] django.request: Internal Server Error: /en/shop/products/latest/feed
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: LatestProductsFeed() takes no arguments
+2025-04-05 14:59:41,267 [ERROR] django.request: Internal Server Error: /en/shop/products/latest/feed
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: LatestProductsFeed() takes no arguments
+2025-04-05 15:00:27,931 [ERROR] django.request: Internal Server Error: /en/shop/products/latest/feed
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: LatestProductsFeed() takes no arguments
+2025-04-05 15:01:27,210 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/views.py changed, reloading.
+2025-04-05 15:01:27,687 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-05 15:01:28,516 [ERROR] django.request: Internal Server Error: /en/shop/products/latest/feed
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: LatestProductsFeed() takes no arguments
+2025-04-05 15:01:29,381 [ERROR] django.request: Internal Server Error: /en/shop/products/latest/feed
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: LatestProductsFeed() takes no arguments
+2025-04-05 15:01:29,750 [ERROR] django.request: Internal Server Error: /en/shop/products/latest/feed
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: LatestProductsFeed() takes no arguments
+2025-04-05 15:01:30,633 [ERROR] django.request: Internal Server Error: /en/shop/products/latest/feed
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: LatestProductsFeed() takes no arguments
+2025-04-05 15:03:24,611 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/views.py changed, reloading.
+2025-04-05 15:03:25,060 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-05 16:31:39,280 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/admin.py changed, reloading.
+2025-04-05 16:31:39,972 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-05 16:34:26,825 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/common.py changed, reloading.
+2025-04-05 16:34:27,187 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-05 16:37:27,841 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/admin.py changed, reloading.
+2025-04-05 16:37:28,268 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-05 16:41:32,063 [ERROR] django.request: Internal Server Error: /admin/shopapp/product/import_products_csv/
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/admin.py", line 84, in import_csv
+    save_csv_products(
+  File "/home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/common.py", line 15, in save_csv_products
+    Product(**row)
+TypeError: keywords must be strings
+2025-04-05 16:41:53,230 [ERROR] django.request: Internal Server Error: /admin/shopapp/product/import_products_csv/
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/admin.py", line 84, in import_csv
+    save_csv_products(
+  File "/home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/common.py", line 15, in save_csv_products
+    Product(**row)
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/base.py", line 545, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/fields/related_descriptors.py", line 288, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'admin'": "Product.user" must be a "User" instance.
+2025-04-05 16:42:08,599 [ERROR] django.request: Internal Server Error: /admin/shopapp/product/import_products_csv/
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/admin.py", line 84, in import_csv
+    save_csv_products(
+  File "/home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/common.py", line 15, in save_csv_products
+    Product(**row)
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/base.py", line 545, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/fields/related_descriptors.py", line 288, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'admin'": "Product.user" must be a "User" instance.
+2025-04-05 16:45:38,334 [ERROR] django.request: Internal Server Error: /admin/shopapp/product/import_products_csv/
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/admin.py", line 84, in import_csv
+    save_csv_products(
+  File "/home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/common.py", line 15, in save_csv_products
+    Product(**row)
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/base.py", line 569, in __init__
+    raise TypeError(
+TypeError: Product() got unexpected keyword arguments: 'delivery_address', 'promocode'
+2025-04-05 16:49:42,849 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/common.py changed, reloading.
+2025-04-05 16:49:43,743 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-05 16:51:10,584 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-05 17:32:42,010 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-05 17:32:50,587 [WARNING] django.request: Not Found: /
+2025-04-05 17:34:16,003 [ERROR] django.request: Internal Server Error: /admin/shopapp/product/import_products_csv/
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/admin.py", line 84, in import_csv
+    save_csv_products(
+  File "/home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/common.py", line 16, in save_csv_products
+    Product(**row)
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/base.py", line 545, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/fields/related_descriptors.py", line 288, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'admin'": "Product.user" must be a "User" instance.
+2025-04-05 17:36:13,092 [ERROR] django.request: Internal Server Error: /admin/shopapp/product/import_products_csv/
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/admin.py", line 84, in import_csv
+    save_csv_products(
+  File "/home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/common.py", line 16, in save_csv_products
+    Product(**row)
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/base.py", line 569, in __init__
+    raise TypeError(
+TypeError: Product() got unexpected keyword arguments: 'delivery_address', 'promocode', 'products'
+2025-04-05 17:39:28,615 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-05 17:39:41,759 [ERROR] django.request: Internal Server Error: /admin/shopapp/order/import_orders_csv/
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: shopapp_order.user_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/admin.py", line 143, in import_csv
+    save_csv_orders(
+  File "/home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/common.py", line 39, in save_csv_orders
+    Order.objects.bulk_create(orders)
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 823, in bulk_create
+    returned_columns = self._batched_insert(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 1882, in _batched_insert
+    self._insert(
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 1854, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1881, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/debug_toolbar/panels/sql/tracking.py", line 235, in execute
+    return self._record(super().execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/debug_toolbar/panels/sql/tracking.py", line 160, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: shopapp_order.user_id
+2025-04-05 17:40:20,060 [ERROR] django.request: Internal Server Error: /admin/shopapp/order/import_orders_csv/
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/admin.py", line 143, in import_csv
+    save_csv_orders(
+  File "/home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/common.py", line 32, in save_csv_orders
+    order = Order(
+            ^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/base.py", line 545, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/db/models/fields/related_descriptors.py", line 288, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'1'": "Order.user" must be a "User" instance.
+2025-04-05 17:40:47,409 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/common.py changed, reloading.
+2025-04-05 17:40:48,387 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-05 17:42:31,459 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/common.py changed, reloading.
+2025-04-05 17:42:31,814 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-05 17:42:36,097 [ERROR] django.request: Internal Server Error: /admin/shopapp/order/import_orders_csv/
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/middlewares/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/admin.py", line 143, in import_csv
+    save_csv_orders(
+  File "/home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/common.py", line 33, in save_csv_orders
+    user = User.objects.get(pk=user_id)
+           ^^^^
+NameError: name 'User' is not defined
+2025-04-05 17:42:52,510 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/import_export/mysite/shopapp/common.py changed, reloading.
+2025-04-05 17:42:53,323 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-10 17:21:24,031 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-10 17:44:19,490 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-10 17:45:55,941 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/cache/mysite/mysite/settings.py changed, reloading.
+2025-04-10 17:45:56,261 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-10 17:46:54,735 [WARNING] django.request: Not Found: /
+2025-04-10 17:46:55,985 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 17:46:59,443 [INFO] shopapp.views: Rendering shop index
+2025-04-10 17:48:45,344 [INFO] shopapp.views: Rendering shop index
+2025-04-10 17:59:09,616 [INFO] shopapp.views: Rendering shop index
+2025-04-10 18:01:16,698 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/cache/mysite/mysite/settings.py changed, reloading.
+2025-04-10 18:01:17,490 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-10 18:01:32,349 [WARNING] django.request: Not Found: /myauth/cookie/get/
+2025-04-10 18:02:30,905 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/cache/mysite/myauth/views.py changed, reloading.
+2025-04-10 18:02:31,502 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-10 18:04:20,474 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/cache/mysite/shopapp/urls.py changed, reloading.
+2025-04-10 18:04:20,888 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-10 18:04:24,884 [INFO] shopapp.views: Rendering shop index
+2025-04-10 18:13:57,721 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/cache/mysite/shopapp/views.py changed, reloading.
+2025-04-10 18:13:58,178 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-10 18:14:31,872 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/cache/mysite/shopapp/views.py changed, reloading.
+2025-04-10 18:14:32,336 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-10 19:53:24,044 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/cache/mysite/shopapp/views.py changed, reloading.
+2025-04-10 19:53:25,035 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-10 19:57:57,008 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/cache/mysite/shopapp/urls.py changed, reloading.
+2025-04-10 19:57:57,568 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-10 19:58:03,043 [INFO] shopapp.views: Rendering shop index
+2025-04-10 19:58:05,001 [INFO] shopapp.views: Rendering shop index
+2025-04-10 19:58:05,727 [INFO] shopapp.views: Rendering shop index
+2025-04-10 19:58:06,274 [INFO] shopapp.views: Rendering shop index
+2025-04-10 19:58:08,175 [INFO] shopapp.views: Rendering shop index
+2025-04-10 19:59:41,839 [INFO] shopapp.views: Rendering shop index
+2025-04-10 19:59:44,841 [INFO] shopapp.views: Rendering shop index
+2025-04-10 19:59:57,522 [INFO] shopapp.views: Rendering shop index
+2025-04-10 20:00:59,048 [ERROR] django.request: Internal Server Error: /en/accounts/about-me/
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/views/generic/edit.py", line 201, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/mysite/myauth/views.py", line 67, in get_object
+    return self.request.user.profile
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/utils/functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AnonymousUser' object has no attribute 'profile'
+2025-04-10 20:01:07,973 [WARNING] django.request: Not Found: /media/uploads/avatars/default.jpg
+2025-04-10 20:02:39,898 [WARNING] django.request: Not Found: /media/uploads/avatars/default.jpg
+2025-04-10 20:05:29,738 [WARNING] django.request: Not Found: /media/uploads/avatars/default.jpg
+2025-04-10 20:05:45,465 [WARNING] django.request: Not Found: /media/uploads/avatars/default.jpg
+2025-04-10 20:05:55,376 [WARNING] django.request: Not Found: /media/uploads/avatars/default.jpg
+2025-04-10 20:05:56,510 [WARNING] django.request: Not Found: /media/uploads/avatars/default.jpg
+2025-04-10 20:05:57,646 [WARNING] django.request: Not Found: /media/uploads/avatars/default.jpg
+2025-04-10 20:08:02,400 [WARNING] django.request: Not Found: /media/uploads/avatars/default.jpg
+2025-04-10 20:08:04,802 [WARNING] django.request: Not Found: /media/uploads/avatars/default.jpg
+2025-04-10 20:08:06,297 [WARNING] django.request: Not Found: /media/uploads/avatars/default.jpg
+2025-04-10 20:08:07,079 [WARNING] django.request: Not Found: /media/uploads/avatars/default.jpg
+2025-04-10 20:08:09,348 [WARNING] django.request: Not Found: /media/uploads/avatars/default.jpg
+2025-04-10 20:08:09,914 [WARNING] django.request: Not Found: /media/uploads/avatars/default.jpg
+2025-04-10 20:40:11,554 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/cache/mysite/shopapp/views.py changed, reloading.
+2025-04-10 20:40:11,879 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-10 20:41:16,162 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/cache/mysite/shopapp/views.py changed, reloading.
+2025-04-10 20:41:16,703 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-10 20:41:28,385 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 20:41:38,620 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 20:41:40,361 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 20:41:41,464 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 20:50:33,153 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 21:06:21,111 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/cache/mysite/mysite/settings.py changed, reloading.
+2025-04-10 21:06:21,833 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-10 22:00:32,516 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/cache/mysite/shopapp/views.py changed, reloading.
+2025-04-10 22:00:33,191 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-10 22:00:44,967 [WARNING] django.request: Forbidden (Permission denied): /en/shop/orders/1/
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/contrib/auth/mixins.py", line 108, in dispatch
+    return self.handle_no_permission()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/contrib/auth/mixins.py", line 48, in handle_no_permission
+    raise PermissionDenied(self.get_permission_denied_message())
+django.core.exceptions.PermissionDenied
+2025-04-10 22:00:55,183 [WARNING] django.request: Not Found: /asdmin
+2025-04-10 22:18:12,348 [ERROR] django.request: Internal Server Error: /en/shop/orders/export/
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/contrib/auth/mixins.py", line 135, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/mysite/shopapp/views.py", line 366, in get
+    return JsonResponse({"orders":orders_data})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/http/response.py", line 751, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/core/serializers/json.py", line 114, in default
+    return super().default(o)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type User is not JSON serializable
+2025-04-10 22:18:45,364 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/cache/mysite/shopapp/views.py changed, reloading.
+2025-04-10 22:18:45,748 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-10 22:18:47,266 [ERROR] django.request: Internal Server Error: /en/shop/orders/export/
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/contrib/auth/mixins.py", line 135, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/mysite/shopapp/views.py", line 366, in get
+    return JsonResponse({"orders":orders_data})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/http/response.py", line 751, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/core/serializers/json.py", line 114, in default
+    return super().default(o)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type User is not JSON serializable
+2025-04-10 22:19:14,486 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/cache/mysite/shopapp/views.py changed, reloading.
+2025-04-10 22:19:14,852 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-10 22:33:25,840 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/cache/mysite/shopapp/urls.py changed, reloading.
+2025-04-10 22:33:26,717 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-10 22:33:44,799 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:33:53,672 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:34:01,271 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:34:22,415 [WARNING] django.request: Not Found: /en/shop/users/5/orders/export/
+2025-04-10 22:35:39,879 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/cache/mysite/shopapp/views.py changed, reloading.
+2025-04-10 22:35:40,398 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-10 22:35:46,362 [WARNING] django.request: Not Found: /en/shop/users/orders/export/
+2025-04-10 22:35:55,140 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:39:50,582 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/cache/mysite/shopapp/views.py changed, reloading.
+2025-04-10 22:39:51,082 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-10 22:39:55,631 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:39:57,487 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:39:58,031 [ERROR] django.request: Internal Server Error: /en/shop/users/1/orders/export/
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/mysite/shopapp/views.py", line 61, in get
+    return JsonResponse({"user_id": user.pk, "orders": orders_data})
+                                    ^^^^
+UnboundLocalError: cannot access local variable 'user' where it is not associated with a value
+2025-04-10 22:39:59,891 [ERROR] django.request: Internal Server Error: /en/shop/users/1/orders/export/
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/mysite/shopapp/views.py", line 61, in get
+    return JsonResponse({"user_id": user.pk, "orders": orders_data})
+                                    ^^^^
+UnboundLocalError: cannot access local variable 'user' where it is not associated with a value
+2025-04-10 22:40:15,914 [ERROR] django.request: Internal Server Error: /en/shop/users/1/orders/export/
+Traceback (most recent call last):
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/karina/PycharmProjects/python_django/cache/mysite/shopapp/views.py", line 61, in get
+    return JsonResponse({"user_id": user.pk, "orders": orders_data})
+                                    ^^^^
+UnboundLocalError: cannot access local variable 'user' where it is not associated with a value
+2025-04-10 22:40:15,957 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/cache/mysite/shopapp/views.py changed, reloading.
+2025-04-10 22:40:16,634 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-10 22:40:18,034 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:40:19,460 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:40:20,219 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:40:20,876 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:40:33,938 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:40:34,647 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:40:35,217 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:40:35,734 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:40:36,249 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:40:37,597 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:40:41,448 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:43:57,084 [INFO] django.utils.autoreload: /home/karina/PycharmProjects/python_django/cache/mysite/shopapp/views.py changed, reloading.
+2025-04-10 22:43:57,950 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-04-10 22:43:58,881 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:43:59,583 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:44:00,262 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:44:40,035 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:44:40,738 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:44:41,457 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:44:50,654 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:44:53,369 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:44:54,673 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:44:55,042 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:44:58,336 [WARNING] django.request: Not Found: /en/shop/users/0/orders/export/
+2025-04-10 22:45:01,412 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-10 22:45:02,525 [WARNING] django.request: Not Found: /favicon.ico
+2025-04-18 15:59:44,710 [INFO] django.utils.autoreload: Watching for file changes with StatReloader

@@ -1,0 +1,16 @@
+[
+  {
+    "model": "shopapp.order",
+    "pk": 1,
+    "fields": {
+      "delivery_address": "test srt. 4",
+      "promocode": "TEST20",
+      "created_at": "2025-02-28T15:26:08.831Z",
+      "user": 1,
+      "products": [
+        1,
+        2
+      ]
+    }
+  }
+]
